@@ -4,8 +4,8 @@ const cors = require('cors');
 
 // Import routes
 const authRoutes = require('./routes/authRoutes');
-const taskRoutes = require('./routes/taskRoutes');
-const reportRoutes = require('./routes/reportRoutes');
+// const taskRoutes = require('./routes/taskRoutes');
+// const reportRoutes = require('./routes/reportRoutes');
 
 // Initialize the app
 const app = express();
@@ -34,8 +34,8 @@ connection.connect((err) => {
 
 // Routes
 app.use('/api', authRoutes);
-app.use('/api', taskRoutes);
-app.use('/api', reportRoutes);
+// app.use('/api', taskRoutes);
+// app.use('/api', reportRoutes);
 
 // Start the server
 const PORT = 8000;

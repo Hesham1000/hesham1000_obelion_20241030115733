@@ -1,9 +1,9 @@
 import React from 'react';
-import Register from './Register';
-import Login from './Login';
-import CreateTask from './CreateTask';
-import Notification from './Notification';
-import TaskReport from './TaskReport';
+import Register from './components/Register/Register';
+import Login from './components/Login/Login';
+// import CreateTask from './CreateTask';
+// import Notification from './Notification';
+// import TaskReport from './TaskReport';
 
 function App() {
   return (
@@ -14,9 +14,9 @@ function App() {
       <main>
         <Register />
         <Login />
-        <CreateTask />
-        <Notification />
-        <TaskReport />
+        {/* <CreateTask /> */}
+        {/* <Notification /> */}
+        {/* <TaskReport /> */}
       </main>
     </div>
   );
